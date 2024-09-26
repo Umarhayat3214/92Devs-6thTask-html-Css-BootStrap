@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_left h3{
+    font-family: 'Poppins';
+}
+ul li{
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 19px;
+}
+.hero_img{
+    width: 100%;
+    height: 60vh;   
+    background-image:url('./img/hero_img.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_text h1{
+font-family: 'inter';
+font-size: 60px;
+}
+/* *********************** section3 ********************** */
+.Section3{
+    padding:60px 0 !important;
+}
+.card{
+    background: #00BF63;
+}
+/* *********************** section4 ********************** */
+.section4{
+    padding: 30px 0;
+}
+.sec4_hr{
+    width: 180px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #004AAD;
+}
+.sec4_right_heading{
+    font-family: 'Inter';
+    font-size: 38px;
+}
+.sec4_right_heading {
+    box-sizing: border-box;
+    padding-right: 15px; /* padding ایڈ کر رہے ہیں */
+  }
+    /* *********************** section5 ********************** */
+.section5{
+    background-color: #E5F9EF;
+}
+li span{
+    color:#03B871;
+}
+li::marker {
+    color:#03B871;
+  }
+  .number {
+    background-color: #00c96b;
+    width: 2rem;
+    height: 2rem;
+    padding:1rem;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .footer{
+    background-color:#263238;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Roboto';
+  }
+ 
+ .input input{
+    background-color: #515B60;
+    /* outline: none; */
+ }
+ .input input::placeholder{
+    color:#b9bcc2;
+ }
+ .f_para{
+    color:#F5F7FA;
+ }
+ .fl_para{
+    color: #263238;
+ }
+ .surname{
+    color: #0A9C59  ;
+ }
+ .bi-facebook,.bi-twitter,.bi-youtube,.bi-instagram,.bi-send{
+    background-color:#515B60;
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+ }
+
+ /* *************************Css Responsive*************************** */
+ @media screen and (max-width: 1400px) {
+    .hero_text h1 {
+        font-size: 40px;
+    } 
+    .sec4_right_heading {
+        font-size: 35px;
+    }
+}
+ @media screen and (max-width: 1200px) {
+    .hero_text h1 {
+        font-size: 40px;
+    } 
+    .sec4_right_heading {
+        font-size: 30px;
+    }
+    }
+ @media screen and (max-width: 992px) {
+    .hero_text h1 {
+        font-size: 30px; 
+    } 
+    }
+
+ @media screen and (max-width: 768px) {
+    .sec4_right_heading{
+        font-size: 28px;
+    }
+    .logo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+ @media screen and (max-width: 500px) {
+    .sec4_right_heading{
+        font-size: 25px;
+    }
+    .hero_para{
+        font-size: 12px;
+    }
+
+  }
